@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Venkatesh Garg | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: #f1f5f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+    a {
+      color: #60a5fa;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .section-content {
+      text-align: left;
+    }
+    .section-heading {
+      text-align: left;
+      color: #93c5fd;
+    }
+  </style>
+</head>
+
+<body class="px-6 sm:px-12 md:px-24 lg:px-32 py-10">
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full bg-transparent py-4 z-20">
+    <ul class="flex justify-end space-x-6 text-gray-300 text-lg font-medium pr-8">
+      <li><a href="#about" class="hover:text-blue-400">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+      <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+      <li><a href="#certifications" class="hover:text-blue-400">Certifications</a></li>
+      <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center mb-20 pt-20" data-aos="fade-right">
+    <img src="my_image.jpg" alt="Venkatesh"
+      class="rounded-full w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mr-0 md:mr-8 mb-6 md:mb-0 shadow-xl transition-transform transform hover:scale-105 hover:ring-4 hover:ring-blue-500" />
+    <div class="text-left">
+      <h1 class="text-4xl font-extrabold text-blue-400 mb-2">Hi, I'm Venkatesh 👋</h1>
+      <h2 class="text-xl font-medium text-gray-300">Data Analyst | ML Enthusiast</h2>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">About Me</h2>
+    <p>I'm a passionate data analyst and AI enthusiast, working on real-world machine learning and AI projects like health prediction models, brain tumor classification, and AI-powered educational tools. Currently pursuing my final year of studies and interning at EliteTech Intern Company.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Skills</h2>
+    <ul class="list-disc pl-6">
+      <li>Python</li>
+      <li>Pandas, NumPy, Matplotlib</li>
+      <li>Scikit-learn, TensorFlow</li>
+      <li>SQL, Excel</li>
+      <li>Data Visualization</li>
+      <li>Communication & Problem-Solving</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Projects</h2>
+    <ul class="space-y-4">
+      <li>
+        <strong><a href="https://github.com/Venki01a/Car-Price-Prediction-2.git" target="_blank">Car Price Prediction</a></strong> - Built a predictive model using Random Forest.
+      </li>
+      <li>
+        <strong><a href="https://github.com/Venki01a/Movie-Recommendation-System.git" target="_blank">Movie Recommendation System</a></strong> - Personalized movie recommendations using NLP and Streamlit.
+      </li>
+      <li>
+        <strong><a href="https://github.com/Venki01a/Customer-Churn-Analysis.git" target="_blank">Customer Churn Prediction</a></strong> - Predicts churn based on financial data like credit score and balance.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Resume</h2>
+    <a href="Resume.pdf" download class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded shadow">📄 Download Resume</a>
+  </section>
+
+  <!-- Experience -->
+  <section class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Work Experience</h2>
+    <ul class="list-disc pl-6">
+      <li><strong>Data Analyst Intern</strong> | EliteTech Intern Company - Built dashboards and reports for decision-making.</li>
+      <li><strong>Hackathon Participant</strong> | GFG Vultr Cloud Innovate - Built AI chatbot for career guidance.</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="mb-16 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Certifications</h2>
+    <ul class="list-disc pl-6">
+      <li>To be updated – please provide details if available</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mb-10 section-content" data-aos="fade-left">
+    <h2 class="text-2xl font-bold border-l-4 border-blue-500 pl-3 mb-4 section-heading">Contact Me</h2>
+    <p>📧 Email: <a href="mailto:venkateshgarg11@gmail.com">venkateshgarg11@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/venkatesh-garg-17b822326" target="_blank">LinkedIn Profile</a></p>
+    <p>💻 GitHub: <a href="https://github.com/Venki01a" target="_blank">github.com/Venki01a</a></p>
+  </section>
+
+  <script>
+    AOS.init();
+
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 60, density: { enable: true, value_area: 800 } },
+        color: { value: "#60a5fa" },
+        shape: { type: "circle" },
+        opacity: { value: 0.2 },
+        size: { value: 3 },
+        move: { enable: true, speed: 2 }
+      },
+      interactivity: {
+        events: { onhover: { enable: true, mode: "repulse" } }
+      }
+    });
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const section = document.querySelector(link.getAttribute('href'));
+        section && section.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+
+</html>
